@@ -1,0 +1,245 @@
+body {
+   background: #000000;
+ }
+ .container {
+    height: 49px; 
+    width: 980px;
+    background: #000000;
+    align-content: inline;
+    margin-left: 13rem; 
+   /*  box-shadow:  0rem 8rem 5rem 0.2rem #ffffff,
+                  0rem 12rem 5rem 0.2rem #f5f4f4,
+                  0rem 17rem 5rem 0.2rem #ffffff,
+                  0rem 23rem 5rem 0.2rem rgba(193, 187, 221, 0.965),
+                  0rem 29rem 5rem 0.2rem rgba(193, 187, 221, 0.965),
+                  0rem 34rem 5rem 0.2rem rgba(193, 187, 221, 0.965),
+                  0rem 38rem 5rem 0.2rem rgba(193, 187, 221, 0.965),
+                  0rem 42rem 5rem 0.2rem rgba(193, 187, 221, 0.965),
+                  0rem 0.5rem 5rem 0.2rem #ffffff,
+                  0rem 0rem 5rem 0.2rem #ffffff,
+                  0rem 4rem 5rem 0.2rem #f5f4f4;
+ */
+ }
+ .demacation {
+    background: rgba(193, 187, 221, 0.965);
+    width: 980px;
+    height: 400px;
+    overflow: hidden;
+/*  margin-top: 0.5rem;
+    margin-left: 13rem; */
+    cursor: crosshair ;
+    /* display: flex; */
+ }
+ .demacation2 {
+    background: white;
+    width: 980px;
+    height: 250px;
+    overflow: hidden;
+    cursor: crosshair;
+/*     margin-left: 13rem;
+    margin-top: 0; */
+   /*  display: flex; */
+ }
+ .demacation2 h2{
+    font-family: Aharoni;
+    padding-top: 1.6rem;
+    text-align: center;
+    padding-right: 1.6rem;
+ }
+ .demacation2 h4 {
+   margin-left: 10rem;
+   padding-right: 10rem;
+   text-align: center;
+ }
+ .demacation2 hr {
+    border-top: .2rem solid rgb(17, 6, 175);
+    width: 75px;
+    margin-top: .2rem;
+    margin-right: 29rem;
+   align-self: center;
+ }
+ .group{
+    background: rgba(193, 187, 221, 0.965);
+    width: 950px;
+    height: 340px;
+    padding-left: 2rem;
+    display: inline-flex;
+    /* align-content: flex-end; */
+ }
+ .group2{
+    display: flex;
+    background: rgba(193, 187, 221, 0.965);
+    align-items: center;
+    justify-content: space-between;
+    height: 8px;
+    margin: 1.2rem;
+     padding-right: 5rem;
+    padding-left: 3.5rem;
+    cursor: default;
+ }
+ .group2 h2 {
+     color: #000;
+     font-family: Bradley Hand ITC; 
+     font-size: 1.6rem;
+     padding-left: 1.1rem;
+     font-weight: 950;
+     -webkit-text-stroke: 1px #000;
+ }
+ .group2 a {
+   color: #000;
+   font-weight: bolder;
+   text-decoration: none;
+   font-family: Aharoni;
+   -webkit-text-stroke: 0.4px #000;
+ }
+ .group2 a:hover {
+    color: rgb(177, 35, 10);
+    transition: ease-in-out 0.3s;
+    -webkit-text-stroke: 0.5px rgb(177, 35, 10);
+ }
+ .group2 ul {
+    display: flex;
+    font-family: Aharoni;
+    font-weight: bolder;
+    transition: all 0.3s linear;
+    font-size: .9rem; 
+    font-weight: bolder;
+    list-style-type: none;
+    padding-top: 0.8rem;
+ }
+ .group2 li {
+     margin-right: 0.8rem;
+ }
+ .messages{
+    float: left;
+    align-items: center;
+    padding-left: 50px;
+}
+.messages a{
+    background: rgb(224, 39, 6);
+    color: #fff;
+    padding:  .8rem 1rem;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Aharoni;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.messages a:hover{
+   background: rgb(168, 30, 30);
+   transition: ease-in-out 0.5s;
+}
+ .photo img{
+    height: 18rem;
+    width: 19rem;
+    border-radius: 50%;
+    float: right;
+    margin-top: 1.8rem;
+    margin-right: 5.5rem;
+    margin-left: 3rem;
+    transition: all 0.3s linear;
+ }
+ h3 {
+     color: rgb(17, 6, 175);
+     font-size: 1rem;
+     font-family: Aharoni;
+     text-transform: uppercase;
+     font-weight: 900;
+     margin-top: 4rem;
+     margin-left: 5px;
+     margin-bottom: 0%;
+     transition: all 0.3s linear;
+ }
+ h1 {
+    color: #000;
+    font-size:1.7rem;
+    font-family: Aharoni;
+    font-weight: 900;
+    margin-left: 5px;
+    margin-top: .1rem;
+    -webkit-text-stroke: 1px #000;
+}
+ h4 {
+    color: rgb(80, 78, 78);
+    font-family: cursive;
+    text-justify: left; 
+    margin-left: 5px;
+    margin-top: .9rem;
+    text-align: left;
+ }
+ .hr {
+     width: 650rem;
+     height: 1px;
+     background: rgb(17, 6, 175);
+ }
+
+
+ .namebox { position:absolute; 
+            margin-top: 2rem;
+            border: 3px solid rgba(193, 187, 221, 0.965); 
+            color: #fff;
+            font-family: cursive; 
+            -webkit-text-stroke: 1px #fff;
+            font-size: 1.2rem;
+            border-right: 60px solid rgba(193, 187, 221, 0.965);
+
+   
+        animation: anim 5s linear infinite; 
+}
+    @keyframes anim { 
+      0% {
+         left: 100px; 
+         top: 0px;
+      } 25% {
+         left: 100px; 
+         top: 0px;
+      } 50% {
+         left: 100px; 
+         top: 0px;
+      } 75% {
+         left: 0px; 
+         top: 0px;
+      } 100% {
+         left: 100px; 
+         top: 0px;
+      } 
+   } 
+
+   @media (max-width: 767px) {
+      .demacation {
+         background: rgba(193, 187, 221, 0.965);
+         width: fit-content;
+         height: fit-content;
+         align-self: center;
+     /*  margin-top: 0.5rem;
+         margin-left: 13rem; */
+         /* display: flex; */
+      }
+      .demacation2 {
+         background: white;
+         width: 580px;
+         height: 250px;
+         overflow: hidden;
+     /*     margin-left: 13rem;
+         margin-top: 0; */
+        /*  display: flex; */
+      }
+      .container {
+         height: 0; 
+         width: 0;
+         align-content: inline;
+         margin-left: 0; 
+      }
+      .group2{
+         display: flex;
+         background: rgba(193, 187, 221, 0.965);
+         align-items: center;
+         justify-content: center;
+         height: 8px;
+         margin: 1.2rem;
+          padding-right: 5rem;
+         padding-left: 3.5rem;
+         cursor: default;
+      }
+  }
